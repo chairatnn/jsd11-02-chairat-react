@@ -1,10 +1,29 @@
 export default function Home() {
-    return (
-        <div>
-            <h1>Home</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, veniam consequatur. Atque veniam sint optio perferendis sequi incidunt harum tempora, explicabo provident itaque soluta commodi fuga porro, qui laboriosam vero!
-            </p>
-        </div>
-    );
+  const handleButtonClick = () => {};
+
+  return (
+    <div className="bg-gray-300 justify-center">
+      <h1 class="text-5xl font-weight: bold front-size: x-large text-center py-4">
+        Generation Thailand
+      </h1>
+      <h1 class="text-5xl font-weight: bold front-size: x-large text-center py-4">
+        React - Assessment
+      </h1>
+
+      <div className="flex justify-center space-x-40 px-3 py-10">
+        <button 
+          onClick={handleButtonClick}
+          className=" bg-gray-200 text-gray-900 font-bold py-3 px-6 rounded-xl shadow-md hover:bg-gray-400 transition duration-150">
+          User Home View
+        </button>
+
+        <button
+          onClick={handleButtonClick}
+          className=" bg-gray-200 text-gray-900 font-bold py-3 px-6 rounded-xl shadow-md hover:bg-gray-400 transition duration-150">
+          Admin Home View
+        </button>
+
+      </div>
+    </div>
+  );
 }

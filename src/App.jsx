@@ -1,4 +1,4 @@
-// import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Layout from "./components/layout";
 import Home from "./views/Home";
 import User from "./views/User";
@@ -29,6 +29,6 @@ const router = createBrowserRouter([
 
 export default function App() {
   return (
-    <RouterProvider router={router} />
+     <RouterProvider router={router} />
   );
 }
