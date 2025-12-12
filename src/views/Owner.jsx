@@ -7,15 +7,9 @@ export default function Owner() {
 
       <div className="mt-8 flex justify-center">
         <img
-          src="./public/dog.jpg"
+          src="dog.jpg"
           alt="WTF!! ภาพหาย"
           className="w-full max-w-lg h-auto rounded-xl shadow-2xl transition-transform duration-300 hover:scale-[1.02] border-4 border-gray-400"
-         
-          onError={(e) => {
-            e.target.onerror = null;
-            e.target.src =
-              "https://placehold.co/400x200/FF0000/ffffff?text=Image+Error";
-          }}
         />
       </div>
        <h1 className="mt-4 text-center text-2xl text-black-500 py-6">

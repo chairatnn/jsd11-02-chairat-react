@@ -7,18 +7,18 @@ export default function Navbar() {
         <li>
           <Link to="/">Home</Link>
         </li>
+        <li>
+          <Link to="/user">User</Link>
+        </li>
         {/* <li>
-                    <Link to="/user">User</Link>
-                </li>
-                <li>
-                    <Link to="/admin">Admin</Link>
-                </li> */}
+          <Link to="/admin">Admin</Link>
+        </li> */}
         <li>
           <Link to="/owner">Owner</Link>
         </li>
         {/* <li>
-                    <Link to="/FetchAPI_EmptyArray">Fetch 1</Link>
-                </li> */}
+          <Link to="/FetchAPI_EmptyArray">Fetch 1</Link>
+        </li> */}
       </ul>
     </nav>
   );
